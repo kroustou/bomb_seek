@@ -14,7 +14,6 @@ Description:
 Agents start seeking for the Bomb
 - if an agent finds the bomb:
 	- starts seeking the Scout to inform him about the bomb
-	- if the Scout finds where the bomb is he should go.
-		-if the Scout finds the bomb he deactivates it and the game stops
+	- if the Scout finds where the bomb is he should go to deactivate it.
 - if an agend finds another one
-	- they exchange information about the known path an the location of the bomb
+	- they exchange information about the known path and the location of the bomb
