@@ -1,13 +1,13 @@
-0 - moves: 45 , exchanges: 64 
-1 - moves: 45 , exchanges: 47 
-2 - moves: 45 , exchanges: 61 
-3 - moves: 45 , exchanges: 60 
-4 - moves: 45 , exchanges: 65 
-5 - moves: 45 , exchanges: 61 
-6 - moves: 45 , exchanges: 47 
-7 - moves: 45 , exchanges: 86 
-8 - moves: 45 , exchanges: 46 
-9 - moves: 45 , exchanges: 52 
-scout - moves: 45 , exchanges: 38 
-Overal time: 22 sec
+0 - moves: 237 , exchanges: 280 
+1 - moves: 237 , exchanges: 286 
+2 - moves: 237 , exchanges: 316 
+3 - moves: 237 , exchanges: 333 
+4 - moves: 237 , exchanges: 282 
+5 - moves: 237 , exchanges: 309 
+6 - moves: 237 , exchanges: 258 
+7 - moves: 237 , exchanges: 283 
+8 - moves: 237 , exchanges: 290 
+9 - moves: 237 , exchanges: 267 
+scout - moves: 237 , exchanges: 261 
+Overal time: 118 sec
 Step time 500ms 

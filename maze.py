@@ -68,10 +68,7 @@ class Maze(QWidget):
             qp.fillRect(a.x*self.boxsize, a.y*self.boxsize, self.boxsize, self.boxsize, a.color)
             if a.draw_path:
                 for p in a.path:
-                    try:
-                        qp.fillRect(p[0]*self.boxsize, p[1] *self.boxsize, self.boxsize, self.boxsize, QColor(0, 0, 255, 127))
-                    except:
-                        print 'couldn draw path'
+                    qp.fillRect(p[0]*self.boxsize, p[1] *self.boxsize, self.boxsize, self.boxsize, QColor(110, 209, 97, 127))
         # target
         x, y = self.target
         qp.fillRect(x*b, y*b, b, b, Qt.red)

@@ -111,7 +111,7 @@ class MainWindow(QMainWindow):
  
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.doStep)
-        self.timer.setInterval(500)
+        self.timer.setInterval(250)
         self.timer.start()
  
     def stopSolving(self):
