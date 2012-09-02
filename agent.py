@@ -1,4 +1,3 @@
-from PySide.QtCore import *
 from PySide.QtGui import *
 import random
 
@@ -13,7 +12,7 @@ class Agent():
         self.path = [position]
         self.is_scout = is_scout
         self.parent = parent
-        self.color = Qcolor(0, 96, 109, 255) if self.is_scout  else Qcolor(0, 168, 109, 255)
+        self.color = QColor(0, 96, 109, 255) if self.is_scout  else QColor(0, 168, 109, 255)
         self.draw_path = False
         self.bomb_location = False
         self.path_to_bomb = []  
@@ -30,7 +29,7 @@ class Agent():
                 self.parent.bomb_found = True
                 return True
             else:
-                self.color = Qt.blue
+                self.color = QColor(200, 96, 109, 255)
                 # the path is being reinitialized in
                 # order to be show to the scout
                 self.bomb_location = self.parent.target
@@ -84,7 +83,7 @@ class Agent():
                         if self.bomb_location and not agent.bomb_location:
                             
                             agent.bomb_location = self.bomb_location
-                            agent.color = Qt.blue
+                            agent.color = QColor(200, 96, 109, 255)
 
             for m in moves:
                 # The agent prefers to go to a
